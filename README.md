@@ -1,2 +1,2 @@
 # SUBMIT
-Script to submit quantum chemistry jobs to sbatch
+Script to submit quantum chemistry jobs to slurm
