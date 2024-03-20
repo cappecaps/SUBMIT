@@ -7,12 +7,12 @@ Script to submit quantum chemistry jobs to slurm
 ## Supported programs:
 - g16 - Gaussian16 (.com)
 - orca - ORCA 5.0.1 (.inp)
-	cp2k - CP2K 7.1 (.inp)
-	python - Regular Python script (.py)
-	ade - Python script for AutoDE (.py)
-	crest - xyz file (.xyz)
-	bash - bash script (.sh)
-	vasp - VASP 6.4.4 (ask Martin access!) (no input file requested, but vasp keyword must be specified)
+- cp2k - CP2K 7.1 (.inp)
+- python - Regular Python script (.py)
+- ade - Python script for AutoDE (.py)
+- crest - xyz file (.xyz)
+- bash - bash script (.sh)
+- vasp - VASP 6.4.4 (ask Martin access!) (no input file requested, but vasp keyword must be specified)
 
 ## Additional options:
 	-m [filenames] - launch multiple jobs in succession (not implemented yet)
