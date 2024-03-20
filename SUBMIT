@@ -54,7 +54,7 @@ PrintHelp(){
 	printf "\t-J [job name] - sbatch job name (default = input file name, without extension. For vasp: vasp_[current folder])\n"
 	printf "\t[any other key(s)] - additional argument (only for bash, python and crest). Can be put in quotes. Example: SUBMIT this.sh \"arg1 arg2 arg3\" \n"
 	printf "\t--arg [argument] - same as above, when [argument] is conflicting with SUBMIT script (e.g. -n or -t). Again, \"[argument(s)]\" can be put in quotes.\n"
-	printf "\t--chk - (only for gaussian) put %chk=[filename].chk on top of the input file\n"
+	printf "\t--chk - (only for gaussian) put \%chk=[filename].chk on top of the input file\n"
 	printf "\t--debug - prints the submitter.sh file and does NOT launch the calculation\n"
 	printf "\nTime limit pre-sets:  \n"
 	printf "\ttest\t- 10m     \n"	
