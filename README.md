@@ -2,7 +2,7 @@
 Script to submit quantum chemistry jobs to slurm
 
 ## Usage: 
-SUBMIT [inputfile] [program (optional)] [additional options (optional)]    (order is irrelevant)
+	SUBMIT [inputfile] [program (optional)] [additional options (optional)]    (order is irrelevant)
 
 ## Supported programs:
 	g16 - Gaussian16 (.com)
