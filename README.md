@@ -5,10 +5,8 @@ Script to submit quantum chemistry jobs to slurm
 	SUBMIT [inputfile] [program (optional)] [additional options (optional)]    (order is irrelevant)
 
 ## Supported programs:
-g16 - Gaussian16 (.com)
-qfqfwq
-g16 - Gaussian16 (.com)
-orca - ORCA 5.0.1 (.inp)
+- g16 - Gaussian16 (.com)
+- orca - ORCA 5.0.1 (.inp)
 	cp2k - CP2K 7.1 (.inp)
 	python - Regular Python script (.py)
 	ade - Python script for AutoDE (.py)
