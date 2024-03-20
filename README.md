@@ -1,5 +1,5 @@
 # SUBMIT
-Script to submit quantum chemistry jobs to slurm
+Script to submit quantum chemistry jobs to slurm. Working only on vera.C3SE
 
 ## Usage: 
 	SUBMIT [inputfile] [program (optional)] [additional options (optional)]    (order is irrelevant)
