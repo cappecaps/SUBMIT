@@ -57,9 +57,9 @@ PrintHelp(){
 	printf "\t--chk - (only for gaussian) put \%chk=[filename].chk on top of the input file\n"
 	printf "\t--debug - prints the submitter.sh file and does NOT launch the calculation\n"
 	printf "\nTime limit pre-sets:  \n"
-	printf "\ttest\t- 10m     \n"	
-	printf "\tshort\t- 01h\n"
-	printf "\tlong\t- 5d\n"
+	printf "\ttest\t- 6 cores, 16 GB, 10 minutes     \n"	
+	printf "\tshort\t- 16 cores, 32GB, 1 hourh\n"
+	printf "\tlong\t- 32 cores, 64GB, 7 days\n"
 	printf "\nOther:\n"
 	printf "\tmailme\t- send email to the user when the job is finished. It takes you CID automatically and send it to CID@chalmers.se\n\n"
 	printf "Examples:
@@ -198,7 +198,7 @@ for i in $(seq 1 $NF); do
 			Cluster=lux
 			Cores=8
 			ReqCores=1
-			Memory=32
+			Memory=16
 			ReqMem=1
 			;;
 		short)
@@ -210,7 +210,7 @@ for i in $(seq 1 $NF); do
                         ReqMem=1
 			;;
 		long)
-			Time=5-00:00:00
+			Time=7-00:00:00
 			Cores=32
                         ReqCores=1
                         Memory=64
