@@ -7,7 +7,6 @@
 
 #---------- Get some variables -------------------------------------------
 binpath=$HOME/bin/Submitter_Files
-RunningJobs=$HOME/bin/QueueHistory/RunningJobs.txt
 Cluster=$SNIC_RESOURCE
 
 #---------- Default settings. Can be changed at your own rsk -------------
