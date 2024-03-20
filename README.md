@@ -27,15 +27,15 @@ Script to submit quantum chemistry jobs to slurm. Working only on vera.C3SE
 	--chk - (only for gaussian) put \hk=[filename].chk on top of the input file
 	--debug - prints the submitter.sh file and does NOT launch the calculation
 
-### Time limit pre-sets:  
-	test	- 10m     
-	short	- 01h
-	long	- 5d
+### Pre-sets:  
+	test	- 8 cores, 16GB, 10 minutes     
+	short	- 16 cores, 32GB, 1 hour
+	long	- 32 cores, 64GB, 7 days
 
 ### Other:
 	mailme	- send email to the user when the job is finished. It takes you CID automatically and send it to CID@chalmers.se
 
-## Examples:
+## Examples:
 	SUBMIT test.com test
 	SUBMIT longassjob.inp cp2k -t 7d -M 196 -N 2 mailme
 	SUBMIT input.inp
